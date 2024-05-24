@@ -214,7 +214,6 @@ for (let i = 0; i < pages.length; i++) {
         const autoplay = false;
 
         if (autoplay) {
-            player.autoplay(player);
         } else {
             const queueEmbed = new EmbedBuilder()
                 .setColor("#0099ff")
