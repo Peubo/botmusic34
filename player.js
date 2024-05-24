@@ -216,7 +216,6 @@ for (let i = 0; i < pages.length; i++) {
         if (autoplay) {
             player.autoplay(player);
         } else {
-            player.destroy();
             const queueEmbed = new EmbedBuilder()
                 .setColor("#0099ff")
                 .setDescription('**Queue Songs ended! Disconnecting Bot!**');
